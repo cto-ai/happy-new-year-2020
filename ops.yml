@@ -1,0 +1,15 @@
+# for more info visit https://cto.ai/docs/ops-reference
+version: "1"
+commands:
+  - name: happy-new-year:1.0.1
+    public: true
+    description: Happy new year, CTO.AI!!!
+    run: node /ops/index.js
+    sdk: "2"
+    sourceCodeURL: "https://github.com/cto-ai/Happy-New-Year"
+    mountCwd: false
+    mountHome: false
+    bind:
+      - "/tmp:/tmp"
+    port:
+      - 3000:3000
