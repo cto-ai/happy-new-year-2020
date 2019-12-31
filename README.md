@@ -4,4 +4,4 @@
 
 Ops to wish everyone a wonderful 2020!
 
-Just ˜ops run @kaltner/happy-new-year˜ and celebrate!
+Just `ops run @kaltner/happy-new-year` and celebrate!
